@@ -14,7 +14,7 @@
                         </figure>
                         <p class="mb-1">
                             <small class="text-opac">Fresh</small>
-                            <small class="float-end"><span class="text-opac">60% Off</span></small>
+                            <small class="float-end"><span class="text-opac">60%Off</span></small>
                         </p>
                         <a href="product.html" class="text-normal">
                             <h6 class="text-color-theme">ProductName</h6>
