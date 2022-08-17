@@ -1,0 +1,157 @@
+﻿/* ===================================== Login Page Design CSS ==================================== */
+
+
+.form-login-body {
+    background-image: url(../Img/bg.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 991px) {
+    .form-login-body {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-login-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.form-login-body .login-desk {
+    filter: drop-shadow(0 0 13.5px rgba(0, 0, 0, 0.09));
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+    .form-login-body .login-desk .detail-box {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+        .form-login-body .login-desk .detail-box .logo {
+            width: 50%;
+            position: absolute;
+            left: 25%;
+            top: 25%;
+        }
+
+        .form-login-body .login-desk .detail-box .help {
+            width: 450px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+
+        .form-login-body .login-desk .detail-box .detailsh {
+            text-align: center;
+            bottom: 10%;
+            position: absolute;
+            width: 100%;
+            left: 0;
+        }
+
+            .form-login-body .login-desk .detail-box .detailsh h3 {
+                font-size: 1.2rem;
+                margin-bottom: 15px;
+            }
+
+            .form-login-body .login-desk .detail-box .detailsh p {
+                font-size: 0.8rem;
+            }
+
+    .form-login-body .login-desk .loginform {
+        background-color: #4c56c0;
+        text-align: center;
+        color: #fff;
+        padding: 50px;
+    }
+
+        .form-login-body .login-desk .loginform a {
+            color: #fff;
+        }
+
+        .form-login-body .login-desk .loginform h4 {
+            color: #fff;
+            font-size: 1.3rem;
+        }
+
+        .form-login-body .login-desk .loginform p {
+            font-size: 0.8rem;
+            margin-bottom: 30px;
+        }
+
+        .form-login-body .login-desk .loginform .login-det .form-row {
+            margin-top: 20px;
+        }
+
+            .form-login-body .login-desk .loginform .login-det .form-row label {
+                font-size: 0.85rem;
+            }
+
+        .form-login-body .login-desk .loginform .login-det .input-group .input-group-prepend .input-group-text {
+            background-color: #3d46a7;
+            color: #ffffff;
+            border-right: 0px;
+            border: 0px;
+        }
+
+        .form-login-body .login-desk .loginform .login-det .input-group .form-control {
+            background-color: #3d46a7;
+            color: #fff;
+            border-left: 0px;
+            border: 0px;
+        }
+
+            .form-login-body .login-desk .loginform .login-det .input-group .form-control:focus {
+                border: 0px;
+            }
+
+        .form-login-body .login-desk .loginform .login-det .btn-danger {
+            width: 100%;
+            border-radius: 0px;
+            background-color: #fa607e;
+            border-radius: 50px;
+        }
+
+        .form-login-body .login-desk .loginform .forget {
+            text-align: right;
+        }
+
+        .form-login-body .login-desk .loginform .social-link ul {
+            float: right;
+            margin-top: 30px;
+        }
+
+            .form-login-body .login-desk .loginform .social-link ul li {
+                float: left;
+                padding: 15px;
+                font-size: 0.9rem;
+            }
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff !important;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff !important;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff !important;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: 0px;
+}
